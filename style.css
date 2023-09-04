@@ -1,5 +1,5 @@
 :root {
-  --body-fs: 0.938rem;
+  --footer-fs: 0.75rem;
   --card-body-fs: 1rem;
   --card-title-fs: 1.4rem;
   --dark-blue: hsl(218, 44%, 22%);
@@ -24,7 +24,7 @@ body {
   justify-content: center;
 }
 .footer {
-  font-size: 0.75rem;
+  font-size: var(--footer-fs);
   padding: 1rem 0;
   text-align: center;
 }
